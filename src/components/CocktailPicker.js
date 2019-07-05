@@ -43,16 +43,16 @@ class CocktailPicker extends React.Component {
     const { getId, cocktails } = this.props;
     const { alcohol, describe, language } = this.state;
 
-    const chosenId = cocktails.map(ele => {
+    const chosenDrink = cocktails.map(ele => {
       if (
         ele.strGlass === describe &&
         ele.alcohol === alcohol &&
         ele.strCategory === language
       )
-        return ele.idDrink;
+        return ele;
     });
 
-    getId(chosenId[0]);
+    getId(chosenDrink[0]);
   };
 }
 
