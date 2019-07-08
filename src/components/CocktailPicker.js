@@ -14,7 +14,7 @@ class CocktailPicker extends React.Component {
           <option value="gin">Gin</option>
           <option value="rum">Rum</option>
         </select>
-
+        <br />
         <label htmlFor="describe">How would you describe yourself?</label>
         <select onChange={this.handleChange} id="describe">
           <option value="highball">Shy</option>
@@ -22,12 +22,12 @@ class CocktailPicker extends React.Component {
           <option value="shot">Outgoing</option>
           <option value="punchbowl">Selfish</option>
         </select>
-
+        <br />
         <label htmlFor="language">What is your prefered coding language?</label>
         <select onChange={this.handleChange} id="language">
           <option value="ordinary">Javascript</option>
           <option value="cocktail">Python</option>
-          <option value="shot">C#</option>
+          <option value="party">C#</option>
         </select>
         <button type="submit">Tell me what I am!</button>
       </form>
@@ -42,14 +42,13 @@ class CocktailPicker extends React.Component {
     event.preventDefault();
     const { getId, cocktails } = this.props;
     const { alcohol, describe, language } = this.state;
-
-    const chosenDrink = cocktails.map(ele => {
-      if (
+    console.log(getId);
+    const chosenDrink = cocktails.filter(ele => {
+      return (
         ele.strGlass === describe &&
         ele.alcohol === alcohol &&
         ele.strCategory === language
-      )
-        return ele;
+      );
     });
 
     getId(chosenDrink[0]);

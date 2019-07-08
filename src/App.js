@@ -3,26 +3,34 @@ import Heading from "./components/Heading";
 import CocktailPicker from "./components/CocktailPicker";
 import FinalCocktail from "./components/FinalCocktail";
 import cocktails from "./data/cocktails.json";
+import "./App.css";
 
 class App extends React.Component {
-  state = { cocktails, strDrink: "", strDrinkThumb: "" };
+  state = {
+    cocktails,
+    name: "",
+    imgURL: "https://ui-ex.com/images/bottle-drawing-old-fashioned-3.png",
+    srcURL: ""
+  };
   render() {
-    console.log(this.state);
     return (
       <div>
         <Heading />
-        <CocktailPicker getId={this.getId} cocktails={this.state.cocktails} />
-        <FinalCocktail
-          strDrink={this.state.strDrink}
-          strDrinkThumb={this.state.strDrinkThumb}
-        />
+        <main>
+          <CocktailPicker getId={this.getId} cocktails={this.state.cocktails} />
+          <FinalCocktail
+            name={this.state.name}
+            imgURL={this.state.imgURL}
+            srcURL={this.state.srcURL}
+          />
+        </main>
       </div>
     );
   }
 
   getId = chosenDrink => {
-    const { strDrink, strDrinkThumb } = chosenDrink;
-    this.setState(state => ({ cocktails, strDrink, strDrinkThumb }));
+    const { name, imgURL, srcURL } = chosenDrink;
+    this.setState(state => ({ cocktails, name, imgURL, srcURL }));
   };
 }
 

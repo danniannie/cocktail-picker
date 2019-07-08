@@ -1,17 +1,14 @@
 import React from "react";
+import sentence from "../utils/utils.js";
 
-const FinalCocktail = () => {
-  console.log(this.props);
+const FinalCocktail = ({ name, imgURL, srcURL }) => {
+  const writing = sentence(name);
   return (
-    <section>
-      <h2>You are a...</h2>
+    <section className="displayImg">
+      <p>{name != "" ? `You are ${writing}` : ""}</p>
+      <img src={imgURL} alt={name} />
     </section>
   );
 };
-
-//work out why not pulling through props
-//display title with name prop
-//display image with url prop
-//make it look pretty
 
 export default FinalCocktail;

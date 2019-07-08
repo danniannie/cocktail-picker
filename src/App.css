@@ -1,0 +1,126 @@
+h1 {
+  font-family: "Satisfy", cursive;
+  font-size: 4em;
+  margin: 20px auto;
+  text-align: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  align-content: space-between;
+  font-family: "Life Savers", cursive;
+  font-size: 1.5em;
+}
+
+select {
+  font-family: "Life Savers", cursive;
+  font-size: 0.7em;
+  margin: 1%;
+}
+
+.displayImg {
+  border: black dotted 2px;
+  margin: 100px;
+  width: 500px;
+  height: 400px;
+  font-family: "Satisfy", cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  min-width: 500px;
+}
+
+img {
+  display: flex;
+  max-width: 80%;
+  min-height: 120px;
+  max-height: 300px;
+}
+
+button {
+  font-family: "Life Savers", cursive;
+  margin: 30px auto;
+  height: 5em;
+  width: 18em;
+  font-size: 1em;
+  color: #c3a343;
+}
+
+.gold-text {
+  color: #c3a343;
+}
+
+@media only screen and (min-width: 600px) {
+  h1 {
+    font-family: "Satisfy", cursive;
+    font-size: 4em;
+    margin: 20px auto;
+    text-align: center;
+  }
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-content: space-between;
+    font-family: "Life Savers", cursive;
+    font-size: 1.5em;
+  }
+
+  select {
+    font-family: "Life Savers", cursive;
+    font-size: 0.7em;
+    margin: 1%;
+  }
+
+  .displayImg {
+    border: black dotted 2px;
+    margin: 100px;
+    width: 500px;
+    height: 400px;
+    font-family: "Satisfy", cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+  }
+
+  img {
+    display: flex;
+    max-width: 80%;
+    min-height: 120px;
+    max-height: 300px;
+  }
+
+  button {
+    font-family: "Life Savers", cursive;
+    margin: 30px auto;
+    height: 5em;
+    width: 18em;
+    font-size: 1em;
+    color: #c3a343;
+    background: midnightblue;
+  }
+
+  .gold-text {
+    color: #c3a343;
+  }
+  h2 {
+    font-family: "Life Savers", cursive;
+    font-size: 1.1em;
+    text-align: center;
+  }
+}
