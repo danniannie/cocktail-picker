@@ -29,7 +29,9 @@ class CocktailPicker extends React.Component {
           <option value="cocktail">Python</option>
           <option value="party">C#</option>
         </select>
-        <button type="submit">Tell me what I am!</button>
+        <button className="gold-text" type="submit">
+          Tell me what I am!
+        </button>
       </form>
     );
   }

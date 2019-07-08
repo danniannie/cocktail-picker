@@ -348,8 +348,8 @@
     "strGlass": "shot",
     "strCategory": "cocktail",
     "name": "Ahem… Magic Mike",
-    "imgURL": "https://dineanddish.net/ahem-magic-mike-recipe-blackberry-gin-shooters/",
-    "srcURL": "https://dineanddish.net/wp-content/uploads/2012/07/Blackberry-Gin-Shooters-21.jpg"
+    "imgURL": "https://dineanddish.net/wp-content/uploads/2012/07/Blackberry-Gin-Shooters-21.jpg",
+    "srcURL": "https://dineanddish.net/ahem-magic-mike-recipe-blackberry-gin-shooters/"
   },
   {
     "alcohol": "gin",
@@ -372,8 +372,8 @@
     "strGlass": "punchbowl",
     "strCategory": "cocktail",
     "name": "A Touch of Evil",
-    "imgURL": "https://www.saveur.com/touch-evil-punch-recipe/",
-    "srcURL": "https://www.saveur.com/resizer/dn8Ye3LpHwKLg7IT1-i469wqZ9w=/1034x776/arc-anglerfish-arc2-prod-bonnier.s3.amazonaws.com/public/YL3ZPRXISBCXEN6EB2QRCDZ7I4.jpg"
+    "imgURL": "https://www.saveur.com/resizer/dn8Ye3LpHwKLg7IT1-i469wqZ9w=/1034x776/arc-anglerfish-arc2-prod-bonnier.s3.amazonaws.com/public/YL3ZPRXISBCXEN6EB2QRCDZ7I4.jpg",
+    "srcURL": "https://www.saveur.com/touch-evil-punch-recipe/"
   },
 
   {
@@ -461,7 +461,7 @@
     "strGlass": "punchbowl",
     "strCategory": "ordinary",
     "name": "Tipsy Mermaid",
-    "imgURL": "https://www.thechunkychef.com/tipsy-mermaid-rum-punch/",
+    "imgURL": "https://www.thechunkychef.com/wp-content/uploads/2018/07/Tipsy-Mermaid-Rum-Punch-4.jpg",
     "srcURL": "https://www.thechunkychef.com/tipsy-mermaid-rum-punch/"
   },
   {

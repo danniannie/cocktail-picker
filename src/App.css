@@ -1,9 +1,17 @@
 h1 {
   font-family: "Satisfy", cursive;
   font-size: 4em;
-  margin: 20px auto;
+  margin: 10px auto;
   text-align: center;
 }
+
+h2 {
+  font-family: "Life Savers", cursive;
+  font-size: 1.1em;
+  text-align: center;
+  margin: auto auto 20px auto;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -16,7 +24,7 @@ form {
   margin: auto;
   align-content: space-between;
   font-family: "Life Savers", cursive;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 select {
@@ -26,8 +34,9 @@ select {
 }
 
 .displayImg {
-  border: black dotted 2px;
-  margin: 100px;
+  border: #c3a343 dotted 2px;
+  border-width: 10px;
+  margin: auto 100px;
   width: 500px;
   height: 400px;
   font-family: "Satisfy", cursive;
@@ -35,7 +44,9 @@ select {
   flex-direction: column;
   align-items: center;
   margin: 50px auto;
-  min-width: 500px;
+  padding: 5px;
+  background: #19193b;
+  max-width: 330px;
 }
 
 img {
@@ -46,15 +57,24 @@ img {
 }
 
 button {
-  font-family: "Life Savers", cursive;
+  font-family: "Satisfy", cursive;
   margin: 30px auto;
   height: 5em;
   width: 18em;
   font-size: 1em;
   color: #c3a343;
+  background: #19193b;
 }
 
 .gold-text {
+  color: #c3a343;
+  font-family: "Satisfy", cursive;
+  font-weight: bolder;
+}
+
+p {
+  font-size: 1.6em;
+  margin: 20px;
   color: #c3a343;
 }
 
@@ -87,8 +107,9 @@ button {
   }
 
   .displayImg {
-    border: black dotted 2px;
-    margin: 100px;
+    border: #c3a343 dotted 2px;
+    border-width: 10px;
+    margin: auto 100px;
     width: 500px;
     height: 400px;
     font-family: "Satisfy", cursive;
@@ -96,6 +117,9 @@ button {
     flex-direction: column;
     align-items: center;
     margin: 50px auto;
+    padding: 5px;
+    background: #19193b;
+    max-width: 500px;
   }
 
   img {
@@ -112,15 +136,23 @@ button {
     width: 18em;
     font-size: 1em;
     color: #c3a343;
-    background: midnightblue;
+    background: #19193b;
   }
 
   .gold-text {
     color: #c3a343;
+    font-family: "Satisfy", cursive;
+    font-weight: bolder;
   }
   h2 {
     font-family: "Life Savers", cursive;
     font-size: 1.1em;
     text-align: center;
+    margin: 0;
+  }
+  p {
+    font-size: 1.6em;
+    margin: 20px;
+    color: #c3a343;
   }
 }
