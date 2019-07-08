@@ -47,6 +47,7 @@ select {
   padding: 5px;
   background: #19193b;
   max-width: 330px;
+  min-width: 330px;
 }
 
 img {
@@ -77,6 +78,9 @@ p {
   margin: 20px;
   color: #c3a343;
 }
+a {
+  color: #c3a343;
+}
 
 @media only screen and (min-width: 600px) {
   h1 {
@@ -89,6 +93,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    flex-wrap: wrap;
   }
   form {
     display: flex;
@@ -109,24 +114,25 @@ p {
   .displayImg {
     border: #c3a343 dotted 2px;
     border-width: 10px;
-    margin: auto 100px;
+
     width: 500px;
     height: 400px;
     font-family: "Satisfy", cursive;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px auto;
+    margin: 25px auto;
     padding: 5px;
     background: #19193b;
     max-width: 500px;
+    min-width: 200px;
   }
 
   img {
     display: flex;
     max-width: 80%;
     min-height: 120px;
-    max-height: 300px;
+    max-height: 280px;
   }
 
   button {
@@ -154,5 +160,10 @@ p {
     font-size: 1.6em;
     margin: 20px;
     color: #c3a343;
+  }
+
+  a {
+    color: #c3a343;
+    margin: 10px auto;
   }
 }

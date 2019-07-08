@@ -9,7 +9,8 @@ class App extends React.Component {
   state = {
     cocktails,
     name: "",
-    imgURL: "https://ui-ex.com/images/bottle-drawing-old-fashioned-3.png",
+    imgURL:
+      "https://st2.depositphotos.com/5595804/8399/v/950/depositphotos_83998266-stock-illustration-cocktail-background.jpg",
     srcURL: ""
   };
   render() {
