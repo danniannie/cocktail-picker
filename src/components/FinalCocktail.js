@@ -7,7 +7,9 @@ const FinalCocktail = ({ name, imgURL, srcURL }) => {
     <section className="displayImg">
       <p>{name != "" ? `You are ${writing}` : ""}</p>
       <img src={imgURL} alt={name} />
-      <a href={srcURL}>{name != "" ? "View Recipe" : ""}</a>
+      <a href={srcURL} target="_blank">
+        {name != "" ? "View Recipe" : ""}
+      </a>
     </section>
   );
 };
